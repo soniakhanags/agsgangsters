@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, links right */
+  align-items: center;
+  padding: 15px 40px; /* reduced horizontal padding from 70px to 40px */
+  background-color: white; /* optional: dark but not pure black */
+  color: #111;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 70px; /* increased gap between links */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+  color: #0af; /* optional: hover color */
+}
